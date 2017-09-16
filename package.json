@@ -1,0 +1,22 @@
+{
+  "name": "rct-express",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel-core": "^6.26.0",
+    "babel-preset-react": "^6.24.1",
+    "ejs": "^2.5.7",
+    "react": "^15.6.1"
+  },
+  "devDependencies": {
+    "babel-plugin-espower": "^2.3.2",
+    "babel-plugin-transform-react-jsx": "^6.24.1"
+  }
+}
