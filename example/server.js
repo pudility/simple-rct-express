@@ -1,11 +1,11 @@
 var express = require('express');
 var app = express();
-var parseRCT = require('./index.js').parseRCT
+var parseRCT = require('../index.js').parseRCT
 
-app.use('/test', express.static('test'))
+app.use('/views', express.static('views'))
 
 app.get('/', function(req, res){
- 	res.send(parseRCT('/test/element.jsx', {name: 'zoe'}));
+ 	res.send(parseRCT('/views/element.jsx', {name: 'zoe'}));
 });
 
 app.listen(3000, () => {

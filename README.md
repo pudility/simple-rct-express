@@ -13,6 +13,8 @@ npm install simple-rct-express --save
 `res.send(parseRCT('pathto.jsx', obj));`
 
 ### Add it to your jsx
+You can access the data you passed in to `parseRCT` via the variable name `server_data`.
+
 If you havent already, make sure you add `ReactDOM.render` to your app:
 ```JavaScript
 ReactDOM.render(
