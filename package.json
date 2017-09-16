@@ -6,8 +6,12 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pudility/simple-rct-express.git"
+  },
   "keywords": [],
-  "author": "",
+  "author": "Zoe Carver",
   "license": "ISC",
   "dependencies": {
     "babel-core": "^6.26.0",

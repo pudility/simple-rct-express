@@ -41,7 +41,7 @@ app.listen(3000, () => {
   console.log('listening on port 3000');
 })
 ```
-### element.jsx
+### views/element.jsx
 ```JavaScript
 class ShoppingList extends React.Component {
   render() {
