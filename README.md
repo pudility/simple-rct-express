@@ -1,13 +1,13 @@
-## simple-rct-express
+## rct-express
 This is a dead-simple way to display jsx code with express and pass it data.
 
 ## Usage
 ### Install
 ```bash
-npm install simple-rct-express --save
+npm install rct-express --save
 ```
 ### Include it
-`var parseRCT = require('simple-rct-express').parseRCT`
+`var parseRCT = require('rct-express').parseRCT`
 
 ### Add it to your app
 `res.send(parseRCT('pathto.jsx', obj));`
@@ -29,7 +29,7 @@ NOTE: there is no need to require react or react-dom, we deal with that part for
 ```JavaScript
 var express = require('express');
 var app = express();
-var parseRCT = require('simple-rct-express').parseRCT
+var parseRCT = require('rct-express').parseRCT
 
 app.use('/views', express.static('views'))
 
